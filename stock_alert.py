@@ -8,13 +8,16 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "N6Q5FZ4SERTXXVI6"
-NEWS_API_KEY = "29c8e6066dd1404c9c35b15ceff8d28e"
+# create your personal apha vinatge api key
+STOCK_API_KEY = ""
+NEWS_API_KEY = ""
 
-TWILIO_SID = "AC2cc6f3c20bad8c6b949220fb8f3e37f6"
-TWILIO_TOKEN = "a4b3cb7f3cf3d025ce514e1271bc9581"
+# create your personal twilio vinatge api key
+TWILIO_SID = ""
+TWILIO_TOKEN = ""
 
-MOBILE_NUMBER = "+15179805148"
+# put your personal phone number here
+MOBILE_NUMBER = ""
 THRESHOLD = 2
 
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
